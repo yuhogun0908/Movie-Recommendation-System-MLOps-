@@ -1,0 +1,5 @@
+# author: minwoo 
+# date: 2202-04-14 19:35
+
+kafka==1.3.5
+kafka-python==2.0.2

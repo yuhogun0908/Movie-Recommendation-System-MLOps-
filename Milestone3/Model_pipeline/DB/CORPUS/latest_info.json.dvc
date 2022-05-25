@@ -1,0 +1,4 @@
+outs:
+- md5: a1e72c9a44afebafdf190e80c22a0aea
+  size: 32
+  path: latest_info.json
