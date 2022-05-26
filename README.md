@@ -15,21 +15,18 @@ The following architecture shows our deployment movie recommendation system
 
 <img src="https://user-images.githubusercontent.com/67786803/170400718-4b8f8264-a82f-4e92-a93b-6cb6cf1ee3f1.png"
      width="737" height="596">
-- git
+
  ### :gear: Software & Tools
 
 <p align="left"> 
-  <a href="https://kafka.apache.org/">
-    <img alt="kafka" src="https://user-images.githubusercontent.com/67786803/170406796-54e2d4b0-1158-4dda-8d8c-0cd981a6cd14.png"/>
+  <a href="https://kafka.apache.org/"><img alt="kafka" src="https://user-images.githubusercontent.com/67786803/170406796-54e2d4b0-1158-4dda-8d8c-0cd981a6cd14.png" width="200" height="100">
   </a>
 
   &emsp;
 <a href="https://dvc.org/">
-    <img alt="DVC" src="https://user-images.githubusercontent.com/67786803/170407079-b8736cfd-e054-497f-814f-c7c0b85cce0b.png"/>
+    <img alt="DVC" src="https://user-images.githubusercontent.com/67786803/170407079-b8736cfd-e054-497f-814f-c7c0b85cce0b.png" width="200" height="100">
   </a>
 </p>
-
-
 
 
 
