@@ -24,7 +24,7 @@ The following architecture shows our deployment movie recommendation system
 <a target="_blank" href="https://dvc.org/"><img src="https://user-images.githubusercontent.com/67786803/170407079-b8736cfd-e054-497f-814f-c7c0b85cce0b.png?style=for-the-badge&logo=git&logoColor=white"></img></a>
 
 &emsp;
-<a target="_blank" href="https://jenkins.io"><img src="https://user-images.githubusercontent.com/67786803/170408471-dcf95828-332a-4a3d-8992-4eeee2516fd2.png?style=for-the-badge&logo=git&logoColor=white"></img></a>
+<a target="_blank" href="https://jenkins.io"><img src="https://user-images.githubusercontent.com/67786803/170408471-dcf95828-332a-4a3d-8992-4eeee2516fd2.png?style=for-the-badge&logo=git&logoColor=white" width="100" height="50"></img></a>
 
 &emsp;
 <a target="_blank" href="https://flask.palletsprojects.com/en/2.1.x/"><img src="https://user-images.githubusercontent.com/67786803/170408686-e1be3d88-3333-4a42-a657-60c3965146b0.png?style=for-the-badge&logo=git&logoColor=white"></img></a>
