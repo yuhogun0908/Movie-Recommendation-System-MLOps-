@@ -49,16 +49,60 @@ The following architecture shows our deployment movie recommendation system
 
 
 ## Continuous Integration
-  1. A pipeline for movie recommendation
+ ### 1. A pipeline for movie recommendation
   ![PipelineforMovie](https://user-images.githubusercontent.com/67786803/170403643-b26c4941-03b6-470b-9efc-3574023279ab.png)
+   - Data storage
+     -    Apache Kafka is a distributed event store and stream-processing platform
+     -    Collect Kafka log data
+          -    Data (movies watched by user) --> for (re)training model and for online evaluation
+          -    Rate (rating by user) --> for (re)training model and for online evaluation
+          -    Request --> for online evaluation
+     -    This pipeline, once run, continues to run until it is intentionally stopped.
+     -    After online evaluation, expired data is automatically deleted.
+   - Data preprocessing
+     -    pre-processing the stored raw data
+     -    Generate a compresssed sparse row (CSR) matrix
+     -    Split it into train/validation sets
+   - Model (re)training
+     -    Matrix Factorization (MF)
+          -    SVD
+     <p align="center">
+          <img src="https://user-images.githubusercontent.com/67786803/170417471-004c781a-76cd-443b-a956-856faa76f013.png"
+     width="375" height="67"> 
+     </p>
+          -    SVD++
+     <p align="center">
+          <img src="https://user-images.githubusercontent.com/67786803/170417543-65bd853b-7d4b-4bb6-8861-bbc9172c8ba6.png"
+     width="364" height="67">
+     </p>
+   - Offline evaluation
+     -    'RMSE' as metric for offline evaluation
+ ### 2. Code integrity checks with uni-test
+   - The process is integrated on Jenkins pipeline, which runs automatically.
+   - The result can be identified in a coverage report format on Jenkins
+     <p align="center">
+          <img src="https://user-images.githubusercontent.com/67786803/170418435-3edc2273-40ad-4ea7-a5e5-a188cb8197f9.png"
+     width="426" height="140">
+     </p
 
-  3. Code integrity checks with uni-test
-  4. Automatic integration pipeline with Jenkins
+###  3. Automatic integration pipeline with Jenkins
+   - Continuous integration
+     - Jenkins
+          - Unit test 1 to 5 --> model management & offline evaluation (model) --> online evaluation
+     - Using Blue Ocean plugin
+          - A more visualized dashboard than ever before
+          - Commit occurs in master branch of github --> Autorun the entire pipeline
+          - Save after pipeline build --> Jenkinsfile for pipeline is committed to master branch on github
+     - Using freestyle project
+          - Automatically run once in a specific period of time
+          - Setting the "build periodically" option
 
-## Continuous Deployment
+### 4. Continuous Deployment
   1. Containerization with Rancher
   2. Automatic Continuous Deployment with Jenkins
   3. Monitoring
   4. Versioning and tracking provenance
 
-#
+### Reflection
+     
+### Conclusion
