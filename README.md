@@ -19,9 +19,9 @@ The following architecture shows our deployment movie recommendation system
  ### :gear: Software & Tools
 <p align="left">
 &emsp;
-<a target="_blank" href="https://kafka.apache.org/"><img src="https://user-images.githubusercontent.com/67786803/170406796-54e2d4b0-1158-4dda-8d8c-0cd981a6cd14.png?style=for-the-badge&logo=git&logoColor=white"></img></a>
+<a target="_blank" href="https://kafka.apache.org/"><img src="https://user-images.githubusercontent.com/67786803/170406796-54e2d4b0-1158-4dda-8d8c-0cd981a6cd14.png?style=for-the-badge&logo=git&logoColor=white"  width="134" height="123"></img></a>
 &emsp;
-<a target="_blank" href="https://dvc.org/"><img src="https://user-images.githubusercontent.com/67786803/170407079-b8736cfd-e054-497f-814f-c7c0b85cce0b.png?style=for-the-badge&logo=git&logoColor=white"></img></a>
+<a target="_blank" href="https://dvc.org/"><img src="https://user-images.githubusercontent.com/67786803/170407079-b8736cfd-e054-497f-814f-c7c0b85cce0b.png?style=for-the-badge&logo=git&logoColor=white" width="150" height="79"></img></a>
 &emsp;
 <a target="_blank" href="https://jenkins.io"><img src="https://user-images.githubusercontent.com/67786803/170408471-dcf95828-332a-4a3d-8992-4eeee2516fd2.png?style=for-the-badge&logo=git&logoColor=white" width="100" height="151"></img></a>
 &emsp;
@@ -35,9 +35,9 @@ The following architecture shows our deployment movie recommendation system
 &emsp;
 <a target="_blank" href="https://grafana.com/"><img src="https://user-images.githubusercontent.com/67786803/170409061-bde198e4-7cca-4d04-afa7-461f78a3a5e3.png?style=for-the-badge&logo=git&logoColor=white" width="150" height="70"></img></a>
 &emsp;
-<a target="_blank" href="https://kubernetes.io/"><img src="https://user-images.githubusercontent.com/67786803/170409137-8e242cd8-6f3e-4cf8-8d64-fd7425bcc185.png?style=for-the-badge&logo=git&logoColor=white"  width="150" height="132"></img></a>
+<a target="_blank" href="https://kubernetes.io/"><img src="https://user-images.githubusercontent.com/67786803/170409137-8e242cd8-6f3e-4cf8-8d64-fd7425bcc185.png?style=for-the-badge&logo=git&logoColor=white"  width="130" height="114"></img></a>
 &emsp;
-<a target="_blank" href="https://rancher.com/"><img src="https://user-images.githubusercontent.com/67786803/170409205-75128770-bdbd-4e96-912d-1f3fe4c50d53.png?style=for-the-badge&logo=git&logoColor=white" width="150" height="115"></img></a>
+<a target="_blank" href="https://rancher.com/"><img src="https://user-images.githubusercontent.com/67786803/170409205-75128770-bdbd-4e96-912d-1f3fe4c50d53.png?style=for-the-badge&logo=git&logoColor=white" width="130" height="99"></img></a>
 &emsp;
 <a target="_blank" href="https://slack.com/"><img src="https://user-images.githubusercontent.com/67786803/170409326-f2a0a772-236a-49a5-8dcc-6b4bf1ea881d.png?style=for-the-badge&logo=git&logoColor=white" width="150" height=61"></img></a>
 
