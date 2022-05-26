@@ -97,12 +97,12 @@ The following architecture shows our deployment movie recommendation system
           - Automatically run once in a specific period of time
           - Setting the "build periodically" option
 
-### 4. Continuous Deployment
-  1. Containerization with Rancher
-  2. Automatic Continuous Deployment with Jenkins
-  3. Monitoring
-  4. Versioning and tracking provenance
+## Continuous Deployment
+### 1. Containerization with Rancher
+### 2. Automatic Continuous Deployment with Jenkins
+### 3. Monitoring
+### 4. Versioning and tracking provenance
 
-### Reflection
+## Reflection
      
-### Conclusion
+## Conclusion
