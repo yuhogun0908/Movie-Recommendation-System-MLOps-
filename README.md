@@ -68,7 +68,7 @@ The following architecture shows our deployment movie recommendation system
      <p align="center">
           <img src="https://user-images.githubusercontent.com/67786803/170715796-d86de28e-5502-43b5-be38-96b666e866bc.png"
      width="300" height="47"> 
-     </p>!
+     </p>
 
      -    SVD++
      <p align="center">
